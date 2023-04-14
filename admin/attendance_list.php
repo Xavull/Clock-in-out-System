@@ -1,4 +1,13 @@
+<style>
+        html, body {
+  background-image: url('../images/Office7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
 
+        </style>
 <?php 
 $eid = isset($_GET['employee_id']) ?$_GET['employee_id'] :"all";
 $date_start = isset($_GET['date_start']) ? $_GET['date_start'] : date('Y-m-d',strtotime(date('Y-m-d')." -1 week"));
@@ -14,6 +23,16 @@ $date_end = isset($_GET['date_end']) ? $_GET['date_end'] : date('Y-m-d');
         border:1px solid var(--bs-dark);
         border-radius:50% 50%;
     }
+    <style>
+        html, body {
+  background-image: url('../images/Office7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+        </style>
 </style>
 <div class="card">
     <div class="card-header d-flex justify-content-between">

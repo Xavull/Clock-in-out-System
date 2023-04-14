@@ -1,3 +1,14 @@
+<style>
+        html, body {
+  background-image: url('../images/Office7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+        </style>
+
 <?php
 session_start();
 if(!isset($_SESSION['employee_id'])){
@@ -14,7 +25,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo ucwords(str_replace('_',' ',$page)) ?> |Online WFH Employee Attendance System</title>
+    <title><?php echo ucwords(str_replace('_',' ',$page)) ?> |Online InvesthoodIT Employee Attendance System</title>
     <link rel="stylesheet" href="./fontawesome/css/all.min.css">
     <link rel="stylesheet" href="./select2/css/select2.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">

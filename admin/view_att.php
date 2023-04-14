@@ -1,3 +1,13 @@
+<style>
+        html, body {
+  background-image: url('../images/Office7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+        </style>
 <?php 
 require_once('./../DBConnection.php');
 $log_type = array('IN'=>'Time IN','L_OUT'=>'Lunch Break (OUT)','L_IN'=>'After Lunch (IN)','OUT'=>'Time Out');

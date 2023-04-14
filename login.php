@@ -13,7 +13,7 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN |Online  Employee Attendance System</title>
+    <title>LOGIN |Online WFH Employee Attendance System</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/popper.min.js"></script>
@@ -23,32 +23,43 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
         html, body{
             height:100%;
         }
+        #background-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
     </style>
 </head>
 <body class="bg-dark bg-gradient">
-   <div class="h-100 d-flex jsutify-content-center align-items-center">
-       <div class='w-100'>
-        <h3 class="py-5 text-center text-light">Online  Employee Attendance System</h3>
-        <div class="card my-3 col-md-4 offset-md-4">
-            <div class="card-body">
-                <form action="" id="login-form">
-                    <center><small>Please your credentials.</small></center>
-                    <div class="form-group">
-                        <label for="email" class="control-label">Email</label>
-                        <input type="email" id="email" autofocus name="email" class="form-control form-control-sm rounded-0" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="password" class="control-label">Password</label>
-                        <input type="password" id="password" autofocus name="password" class="form-control form-control-sm rounded-0" required>
-                    </div>
-                    <div class="form-group d-flex w-100 justify-content-end">
-                        <button class="btn btn-sm btn-primary rounded-0 my-1">Login</button>
-                    </div>
-                </form>
+    <video autoplay muted loop id="background-video">
+        <source src="./videos/background.mp4" type="video/mp4">
+    </video>
+    <div class="h-100 d-flex jsutify-content-center align-items-center">
+        <div class='w-100'>
+            <h3 class="py-5 text-center text-light">Online WFH Employee Attendance System</h3>
+            <div class="card my-3 col-md-4 offset-md-4">
+                <div class="card-body">
+                    <form action="" id="login-form">
+                        <center><small>Please your credentials.</small></center>
+                        <div class="form-group">
+                            <label for="email" class="control-label">Email</label>
+                            <input type="email" id="email" autofocus name="email" class="form-control form-control-sm rounded-0" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="control-label">Password</label>
+                            <input type="password" id="password" autofocus name="password" class="form-control form-control-sm rounded-0" required>
+                        </div>
+                        <div class="form-group d-flex w-100 justify-content-end">
+                            <button class="btn btn-sm btn-primary rounded-0 my-1">Login</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-       </div>
-   </div>
+    </div>
 </body>
 <script>
     $(function(){

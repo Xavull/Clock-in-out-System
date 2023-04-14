@@ -1,4 +1,18 @@
-<h3>Welcome to Local Offices Contact Directories Site</h3>
+<style>
+        html, body {
+  background-image: url('../images/Office7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #dc3545;
+  
+}
+
+        </style>
+  
+
+<h3><b> WELCOME TO INVETSHOOD ONLINE OFFICE ATTENDANCE</h3></b>
+
 <hr>
 <div class="col-12">
     <div class="row gx-3 row-cols-4">

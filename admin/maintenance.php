@@ -1,4 +1,13 @@
+<style>
+        html, body {
+  background-image: url('../images/Office7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
 
+        </style>
 <style>
     .update_stat_dept:hover,.update_stat_position:hover{
         color:inherit !important;

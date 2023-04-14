@@ -131,6 +131,9 @@ if($_SESSION['type'] != 1 && in_array($page,array('maintenance','admin','manage_
         span.select2-container.select2-container--default.select2-container--open {
             z-index: 9999;
         }
+        img.logo {
+            max-height: 50px;
+        }
     </style>
 </head>
 <body class="bg-light">
@@ -138,7 +141,9 @@ if($_SESSION['type'] != 1 && in_array($page,array('maintenance','admin','manage_
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient" id="topNavBar">
         <div class="container">
             <a class="navbar-brand" href="./">
-            WFH - OAS
+            <img src="../Images/logo.png" class="logo mb-4"> 
+            Investhood - clockInOut
+            
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

@@ -1,3 +1,13 @@
+<style>
+        html, body {
+  background-image: url('../images/Office7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+        </style>
 <?php
 require_once("../DBConnection.php");
 $qry = $conn->query("SELECT * FROM `admin_list` where admin_id = '{$_SESSION['admin_id']}'");

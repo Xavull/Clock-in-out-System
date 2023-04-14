@@ -1,3 +1,13 @@
+<style>
+        html, body {
+  background-image: url('../images/Office7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+        </style>
 <?php date_default_timezone_set('Asia/Manila'); ?>
 <?php $loc_details = json_decode(file_get_contents("http://ipinfo.io/json")); ?>
 <div class="container py-5">

@@ -1,4 +1,14 @@
 <style>
+        html, body {
+  background-image: url('../images/Office7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+
+        </style>
+<style>
     #uni_modal .modal-footer{
         display:none !important
     }

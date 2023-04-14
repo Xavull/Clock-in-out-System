@@ -1,4 +1,13 @@
+<style>
+        html, body {
+  background-image: url('../images/Office7.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
 
+        </style>
 <div class="card">
     <div class="card-header d-flex justify-content-between">
         <h3 class="card-title">Employee List</h3>
